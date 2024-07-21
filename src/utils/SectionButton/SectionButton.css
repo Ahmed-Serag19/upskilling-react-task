@@ -1,0 +1,46 @@
+.button {
+  font-weight: bold;
+  padding: 1.3rem 4.5rem;
+  letter-spacing: 1px;
+  border-radius: 3rem;
+  border: none;
+  transition: 0.5s all;
+  font-size: 22px;
+  z-index: 999;
+}
+
+.btn-primary {
+  background-color: blue; /* Adjust as needed */
+  color: white;
+}
+
+.btn-secondary {
+  background-color: grey; /* Adjust as needed */
+  color: white;
+}
+
+.btn-warning {
+  background-color: orange; /* Adjust as needed */
+  color: white;
+}
+
+@media (max-width: 1500px) {
+  .button {
+    font-size: 20px !important;
+    padding: 20px 45px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 16px !important;
+    padding: 15px 35px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .button {
+    font-size: 16px !important;
+    padding: 15px 25px !important;
+  }
+}
