@@ -1,7 +1,8 @@
 ````markdown
 # Upskilling React Task
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Ahmed-Serag19/upskilling-react-task/blob/main/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)]
+(https://github.com/Ahmed-Serag19/upskilling-react-task/blob/main/LICENSE)
 
 ## Overview
 
