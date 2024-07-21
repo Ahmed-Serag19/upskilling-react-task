@@ -1,0 +1,115 @@
+.hero {
+  height: 100vh;
+  background-image: url('../../../assets/images/hero-bg.png');
+  background-size: 65%;
+  background-position: left;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 0 10px;
+}
+.logo-text p {
+  letter-spacing: 0.75rem;
+}
+.lorem-header {
+  font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 1500px) {
+  .hero {
+    background-size: 2000px;
+    background-position: center;
+
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+  .hero header {
+    padding-bottom: 20px !important;
+  }
+  .main-hero {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  .logo-text p {
+    letter-spacing: 0.75rem;
+  }
+  .main-hero h2 {
+    font-size: 4rem;
+  }
+  .main-hero p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .text-8xl {
+    font-size: 5rem;
+  }
+
+  .logo-text p {
+    letter-spacing: 0.5rem;
+  }
+
+  .experts-btn {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .hero {
+    background-size: 2000px;
+    background-position: center;
+    height: 100vh !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 50px !important;
+    padding: 10px !important;
+  }
+  .hero header {
+    padding: 20px 0px !important;
+  }
+  .main-hero {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    justify-content: space-around;
+  }
+  .experts-btn {
+    padding: 5px 25px !important;
+    font-size: 15px;
+  }
+  .hero h2 {
+    font-size: 42px !important;
+  }
+  .hero p {
+    font-size: 16px !important;
+  }
+  .hero header img {
+    width: 50px;
+  }
+  .hero header h1 {
+    font-size: 32px !important;
+  }
+  .text-8xl {
+    font-size: 4rem;
+  }
+
+  .logo-text p {
+    letter-spacing: 0.3rem;
+  }
+
+  .experts-btn {
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-8xl {
+    font-size: 3rem;
+  }
+
+  .logo-text p {
+    letter-spacing: 0.5rem;
+  }
+
+  .experts-btn {
+    padding: 0.5rem 1rem;
+  }
+}
