@@ -5,7 +5,9 @@
 
 ## Overview
 
-This project is a React application built to demonstrate various React and TypeScript skills. It includes components for sections like `Contact Us`, `Testimonials`, and more. The project also utilizes modern libraries such as `React Hook Form` for form handling and validation, and `React Query` for asynchronous operations.
+This project is a React application built to demonstrate various React and TypeScript skills. It includes 
+components for sections like `Contact Us`, `Testimonials`, and more. The project also utilizes modern libraries
+ such as `React Hook Form` for form handling and validation, and `React Query` for asynchronous operations.
 
 ## Features
 
