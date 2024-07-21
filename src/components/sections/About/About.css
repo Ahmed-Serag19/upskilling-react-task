@@ -1,11 +1,11 @@
 .about-us {
-  background: url("../../../assets/images/about-us-bg.jpg");
+  background: url('../../../assets/images/about-us-bg.jpg');
   position: relative;
   padding: 30px;
 }
 .right-side-layer {
   position: absolute;
-  background: url("../../../assets/images/about-us-layer.png");
+  background: url('../../../assets/images/about-us-layer.png');
   background-size: cover;
   height: 100%;
   z-index: -500;
@@ -18,11 +18,11 @@
   z-index: 9999;
 }
 .about-left-side img {
-  width: 350px;
+  width: 400px;
 }
 .btn-container {
   position: absolute;
-  bottom: 30px;
+  bottom: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 555;
@@ -33,7 +33,7 @@
 
 @media (max-width: 1450px) {
   .btn-container {
-    bottom: 10px;
+    bottom: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 50;
@@ -55,20 +55,22 @@
   .about-us {
     padding: 10px 20px;
     height: fit-content !important;
-    gap: 20px !important;
-  }
-
-  .about-us {
     display: flex;
     flex-direction: column;
+  }
+
+  .about-us div {
+    gap: 50px !important;
+    /* justify-content: space-between; */
   }
   .about-left-side img {
     width: 300px !important;
   }
   .btn-container {
-    /* padding-top: 35px !important; */
+    padding-top: 55px !important;
     position: relative !important;
-    bottom: 5px !important;
+    bottom: 15px !important;
+    margin-right: auto;
   }
 
   .about-us p {

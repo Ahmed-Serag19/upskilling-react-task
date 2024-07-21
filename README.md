@@ -1,30 +1,74 @@
-# React + TypeScript + Vite
+````markdown
+# Upskilling React Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Ahmed-Serag19/upskilling-react-task/blob/main/LICENSE)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a React application built to demonstrate various React and TypeScript skills. It includes components for sections like `Contact Us`, `Testimonials`, and more. The project also utilizes modern libraries such as `React Hook Form` for form handling and validation, and `React Query` for asynchronous operations.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React Hook Form** for efficient form handling and validation.
+- **React Query** for managing server state and asynchronous form submissions.
+- Modular and organized component structure.
+- Responsive design with media queries.
 
-- Configure the top-level `parserOptions` property like this:
+## Table of Contents
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- [Installation](#installation)
+- [Usage](#usage)
+- [Components](#components)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/Ahmed-Serag19/upskilling-react-task.git
+   ```
+````
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd upskilling-react-task
+   ```
+
+3. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+## Usage
+
+Start the development server:
+
+```sh
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Open your browser and navigate to http://localhost:3000.
+
+## Components
+
+- Contact Us: A form component using React Hook Form and Yup for validation.
+- Testimonials: Displays testimonials with ratings.
+- Footer: A footer component placed within the Layout component for consistent display across all pages.
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you find any bugs or have suggestions for improvements.
+
+Please refer to the [Contributing Guidelines](https://github.com/Ahmed-Serag19/upskilling-react-task/blob/main/CONTRIBUTING.md) for more information.
+
+## License
+
+This project is licensed under the MIT License. You can find the full license text in the [LICENSE](https://github.com/Ahmed-Serag19/upskilling-react-task/blob/main/LICENSE) file.
+
+```
+
+```

@@ -1,0 +1,76 @@
+input::placeholder {
+  color: black;
+}
+.contact {
+  padding: 20px !important;
+  gap: 30px !important;
+  justify-content: space-evenly !important;
+  font-size: larger;
+}
+.contact header h1 {
+  font-size: 60px !important;
+}
+.bg-blue-200 {
+  background-color: #cedcff;
+}
+svg {
+  font-size: larger;
+  color: var(--secondary-color);
+}
+.text-red-600 {
+  color: #ff4d4d;
+}
+
+.text-green-600 {
+  color: #4caf50;
+}
+@media (max-width: 425px) {
+  .contact header h1 {
+    font-size: 42px !important;
+  }
+  .contact {
+    padding: 30px !important;
+    padding-top: 50px !important;
+    gap: 50px !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    font-size: medium;
+  }
+  .contact div {
+    padding: 5px 5px;
+  }
+
+  .contact form {
+    min-width: 100% !important;
+  }
+  .contact-container {
+    gap: 22px;
+    align-items: center !important;
+  }
+
+  .form-container div {
+    width: 350px !important;
+    margin: auto;
+  }
+  .form-container input {
+    width: 100% !important;
+  }
+  .form-container form {
+    padding: 20px;
+  }
+  .min-w-96 {
+    min-width: 14rem;
+  }
+  .contact-info {
+    padding: 20px 35px !important;
+  }
+}
+@media (max-width: 375px) {
+  .contact header h1 {
+    font-size: 38px !important;
+  }
+  .form-container div {
+    width: 250px !important;
+    margin: auto;
+  }
+}
